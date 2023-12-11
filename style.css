@@ -1,0 +1,136 @@
+div{
+    background-color: aqua;
+}
+h3{
+    background-color: yellowgreen;
+}
+p{
+    font-family: sans-serif;
+}
+body{
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAuAMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAADAgABBAX/xAAdEAEBAQEBAQEAAwAAAAAAAAAAAQISETEhYaHw/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAEDBAIG/8QAGREBAQEBAQEAAAAAAAAAAAAAAAIBEhEh/9oADAMBAAIRAxEAPwD5OYTMbMJmPTPI1TZhMxswmYSFU0yvOXZkkgRqkzKplcyqZJHaRMq5XyqZDjsXLvJeW5DnsNy5ya5cuQfYLly5PyiwO8oFyi5eixFyauU8+oPUejWR6yFcp59Qeo9GoPUGLzTz6jL1GNfNLmFzE5hMwmW9VmEzGzCZn4GeqbMJnLZhMwkKpyRciplUyEdpMiplXKpkJ7SOW5L43P8AAc9BuXOTXLlyD6BcpuT3KNQO8oFyjWT2I1AtNPPqD1Ho1B6hrTTz6gtR6NQWoGiaefUZeo6eNGb8XmFzE4hcky3q8ZJmJyXMJmrVZhMxzMJmBnrWkXMuyLzAjVOTKpFzLsgS2kcu+E5bknPQrHPC3LlgPKBYmw1iLDUygag9R6LBagWmg6gtQ9g9QNE68+oLUejUFqG0Trz6ji9MGnN+EzC5g8GyGaiYhMxGS5JlvSZhMxGS5DPWqzF5jmSZhM9a7IqR2RUgS3UyO+LkbwOOh2JsLYmwHmisHqGsRqBXNBqD1D6gtGvGh1BaPoWg0RoNC0fQdBpnQbjO7Y2jF4NkWS4CNlyXIsw2SZbJmFyPJsDWevq8wmU5/wB/S8/peo1G+rkXImLy59R2Ndkd8aO0ep8OXP5+j1CX54ijNV59zPB6g9FsFp1musncFoWjaFoKwLQtF19Fo2mA6Fs2g7DVAdRndMbRjuDZBk2AlZsmz8DkuSZrw2S5+hyXIZqLmkzRZpMkhXpYTIsrlHiFekld9RK3peJ/VejrtTqjx1nqaPS6PRrTuo0LRKLQXgevotE0LRtMD0HZdh2GmBadTp02nMbJsAyXNCd4fJc0GabNJmrDZpc0GaXNDPWGzSZoc0kpM+4aVUoZVShLcN63o/W9DjldqbU2uWg8lrUarWo1QrOOao9O2j1TXnE6Fur1RaoaJwehapNUW6GmMHqsnVY2mc+NmlzXnzTZoK8PmlzXnzS5oZrw8pZXnzSSkzVh80koJVzQRqTSq6FNOzRJbJum6F03oLkt0m6R6m6B8rtHa5ai01Ml3VHqtqo1oKzLmqLVVqi1Q0TjmqLbuqPdNonEarI1XQ0ZnxOaXNefNLmjTrHozSZrz5pJQzVL0ZpM6efNJmhCoeiVUoJpc0SWweadmg9O9BLZN07dB6dugXBOnLR9OXQGQu6RdJuk3QUyXdVGq5rSLQtMtqj1W1R6prTLmqPVd1R2homUarqNVjXzHMkyzFpUTNJlmDPRMrlZgjRIrLMSWqld9Zg41TntZg5c9b1mBptRq1mDvE1FZjUxGh1xgvKNC1WY8XkddZgvj//Z");
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+    li:nth-child(6n + 1){
+    background-color: red;
+}
+li:nth-child(6n + 2){
+    background-color: green;
+}
+li:nth-child(6n + 3){
+    background-color: yellow;
+}
+li:nth-child(6n + 4){
+    background-color: blueviolet;
+}
+li:nth-child(6n + 5){
+    background-color: orangered;
+}
+li:nth-child(6n + 6){
+    background-color: deeppink;
+}
+nav ul li a:hover{
+    font-size:20px;
+    transition:0.6s;
+}
+
+.class{
+    background-color: red;
+}
+body{
+    background-color: yellow;
+}
+img{
+    width: 100%;
+    height: 300px;
+}
+.card {
+  width: 300px;
+    height: 200px;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.title {
+  color: black;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: red;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+    background-color: brown;
+}
+
+button:hover, a:hover {
+}
+
+table, th, td {
+  border:1px solid black;
+    
+}
+th{
+    background-color: greenyellow;
+}
+h1{
+    text:white;
+    text-color:white;
+    width: 80%;
+}
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook{
+    background: #385998;
+    color: white;
+}
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+.fa-google{
+    background: #dd4b39;
+    color: white;
+}
+.fa-linkedin{
+    background: #007bb5;
+    color: white;
+}
+.fa-youtube{
+    background: #bb0000;
+    color: white;
+}
+.fa-instagram{
+    background: #3275a8;
+    color: white;
+}
+.fa-whatsup{
+    background: #03fc30;
+    color: white;
+}
